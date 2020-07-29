@@ -1,0 +1,80 @@
+header.banner {
+    background-color: #FED02F;
+    background-position: -258px -136.5px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+div.banner {
+    width: 233px;
+    height: 345px;
+    background: transparent url('img/hello.png') 0% 0% no-repeat padding-box;
+    background-size: auto 345px;
+    opacity: 1;
+}
+
+.purpple-bg {
+    width: 100%;
+    height: 100%;
+    background: #8135D6;
+    opacity: 0.5;
+    margin-bottom: 25px;
+}
+
+section {
+    width: 100vw;
+    height: 207px;
+    margin-bottom: 25px;
+}
+
+.walk {
+    background: url('img/walk.png') no-repeat padding-box;
+    background-size: 100% auto;
+    opacity: 1;
+}
+
+.food {
+    background: url('img/food.png') right no-repeat padding-box;
+    background-size: auto 100%;
+    opacity: 1;
+}
+
+.health {
+    background: url('img/health.png') right no-repeat padding-box;
+    background-size: auto 100%;
+    opacity: 1;
+}
+
+.register {
+    width: 100vw;
+    height: auto;
+}
+
+.img-overlay-wrap {
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative; 
+    display: inline-block;
+}
+
+.img-overlay-wrap img {
+    display: block;
+    height: 266px;
+    width: auto;
+}
+
+.img-overlay-wrap svg {
+    position: absolute;
+}
+
+#top-circle {
+    top: 26px; 
+    left: -25%; 
+    z-index: -1;
+}
+
+#bottom-circle {
+    top: 124px; 
+    left: -25%;
+    z-index: 1;
+}
